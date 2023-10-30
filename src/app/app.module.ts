@@ -7,12 +7,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { EventsComponent } from './pages/events/events.component';
 import { FooterComponent } from './Layout/footer/footer.component';
 import { AboutComponent } from './pages/about/about.component';
+import { AlumniComponent } from './pages/alumni/alumni.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EventsComponent,
-    FooterComponent
+    FooterComponent,
+    AlumniComponent
   ],
   imports: [
     BrowserModule,

@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "bootstrap/scss/bootstrap";
+/* Importing Bootstrap SCSS file. */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+
+// VARIABLES
+
+:root {
+  // COLORS
+  --custom-color: #ff5733;
+  --clr-light-primary: #ffffff;
+  --clr-light-secondary: #f7f5ef;
+  --clr-dark-primary: #000000;
+  --clr-dark-secondary: #000000;
+  --clr-orange: #ff6c0a;
+  --clr-button-primary: #000000;
+  --clr-button-secondary: #015851;
+
+  // SHADOW
+  --shadow-card: 0 8px 8px 6px rgba(0, 0, 0, 0.6),
+    0 26px 20px 6px rgba(0, 0, 0, 0.29);
+
+  // FONTS
+  --font-primary: "Roboto", sans-serif;
+  --font-seondary: "Poppins", sans-serif;
+}

@@ -9,7 +9,7 @@ export const alumniData = [
   },
   {
     name: "Emily Davis",
-    img: "assets/images/alumni/img2.jpg",
+    img: "assets/images/alumni/img5.jpg",
     dob: "25-04-1988",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis explicabo officiis labore illum veniam consectetur necessitatibus dicta eos quod id distinctio inventore eligendi quam, deserunt unde laudantium ipsum repellat, omnis nam eum sint atque iste! Sed, sint amet hic, omnis quae quos architecto mollitia illum non inventore debitis vel incidunt?",
     career: "Data Scientist",
@@ -33,7 +33,7 @@ export const alumniData = [
   },
   {
     name: "David Wilson",
-    img: "assets/images/alumni/img5.jpg",
+    img: "assets/images/alumni/img1.jpg",
     dob: "09-08-1991",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis explicabo officiis labore illum veniam consectetur necessitatibus dicta eos quod id distinctio inventore eligendi quam, deserunt unde laudantium ipsum repellat, omnis nam eum sint atque iste! Sed, sint amet hic, omnis quae quos architecto mollitia illum non inventore debitis vel incidunt?",
     career: "Project Manager",
@@ -41,7 +41,7 @@ export const alumniData = [
   },
   {
     name: "Sophia Miller",
-    img: "assets/images/alumni/img6.jpg",
+    img: "assets/images/alumni/img9.jpg",
     dob: "26-09-1989",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis explicabo officiis labore illum veniam consectetur necessitatibus dicta eos quod id distinctio inventore eligendi quam, deserunt unde laudantium ipsum repellat, omnis nam eum sint atque iste! Sed, sint amet hic, omnis quae quos architecto mollitia illum non inventore debitis vel incidunt?",
     career: "Software Engineer",
@@ -65,7 +65,7 @@ export const alumniData = [
   },
   {
     name: "Daniel Anderson",
-    img: "assets/images/alumni/img9.jpg",
+    img: "assets/images/alumni/img6.jpg",
     dob: "05-07-1986",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis explicabo officiis labore illum veniam consectetur necessitatibus dicta eos quod id distinctio inventore eligendi quam, deserunt unde laudantium ipsum repellat, omnis nam eum sint atque iste! Sed, sint amet hic, omnis quae quos architecto mollitia illum non inventore debitis vel incidunt?",
     career: "Financial Analyst",

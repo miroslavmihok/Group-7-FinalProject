@@ -8,13 +8,15 @@ import { EventsComponent } from './pages/events/events.component';
 import { FooterComponent } from './Layout/footer/footer.component';
 import { AboutComponent } from './pages/about/about.component';
 import { AlumniComponent } from './pages/alumni/alumni.component';
+import { AlumnidetailsComponent } from './pages/alumni/alumnidetails/alumnidetails.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EventsComponent,
     FooterComponent,
-    AlumniComponent
+    AlumniComponent,
+    AlumnidetailsComponent
   ],
   imports: [
     BrowserModule,

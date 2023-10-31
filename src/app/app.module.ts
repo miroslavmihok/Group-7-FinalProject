@@ -11,6 +11,7 @@ import { AlumniComponent } from './pages/alumni/alumni.component';
 import { AlumnidetailsComponent } from './pages/alumni/alumnidetails/alumnidetails.component';
 import { EventsDetailsComponent } from './pages/events/events-details/events-details.component';
 import { HomeComponent } from './home/home.component';
+import { HeroComponent } from './Home/hero/hero.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { HomeComponent } from './home/home.component';
     AlumnidetailsComponent,
     EventsDetailsComponent,
     HomeComponent,
+    HeroComponent,
 
   ],
   imports: [

@@ -14,6 +14,8 @@ import { NavbarComponent } from './Layout/navbar/navbar.component';
 import { HomeComponent } from './Home/home.component';
 import { CareersComponent } from './pages/careers/careers.component';
 import { HeroComponent } from './Home/hero/hero.component';
+import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
+
 
 @NgModule({
   declarations: [
@@ -28,8 +30,11 @@ import { HeroComponent } from './Home/hero/hero.component';
     HomeComponent,
     CareersComponent,
     HeroComponent,
+    BreadcrumbsComponent,
+
   ],
-  imports: [BrowserModule, AppRoutingModule, NgbModule],
+  imports: [BrowserModule, AppRoutingModule, NgbModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

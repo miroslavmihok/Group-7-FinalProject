@@ -12,19 +12,33 @@ const routes: Routes = [
   {
     path: '',
     component: HomeComponent,
+
   },
   {
     path: 'alumni',
     component: AlumniComponent,
+    data: {
+      breadcrumb: 'Alumni',
+    },
   },
   {
     path: 'alumni/:id',
     component: AlumnidetailsComponent,
   },
-  { path: 'events', component: EventsComponent },
+  { path: 'events', component: EventsComponent,
+  data: {
+    breadcrumb: 'Events',
+  },
+},
+
   { path: 'events/:details', component: EventsDetailsComponent },
-  { path: 'careers', component: CareersComponent },
-  { path: 'about', component: AboutComponent },
+  { path: 'careers', component: CareersComponent,
+    data: {
+    breadcrumb: 'Careers',
+  }, },
+  { path: 'about', component: AboutComponent,data: {
+    breadcrumb: 'About',
+  }, },
 ];
 
 @NgModule({

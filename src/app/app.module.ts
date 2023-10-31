@@ -17,6 +17,7 @@ import { HeroComponent } from './Home/hero/hero.component';
 @NgModule({
   declarations: [
     AppComponent,
+    AboutComponent,
     EventsComponent,
     FooterComponent,
     AlumniComponent,

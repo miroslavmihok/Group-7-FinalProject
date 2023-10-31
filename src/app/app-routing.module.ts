@@ -59,18 +59,20 @@ const routes: Routes = [
     },
   },
 
-  { path: 'events', component: EventsComponent },
-  { path: 'events/:details', component: EventsDetailsComponent },
-  { path: 'careers', component: CareersComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'stories', component: StoriesComponent,
-  data: {
-    breadcrumb: 'Stories',
-  }, },
-  { path: 'stories-details/:name', component: StoriesDetailsComponent,
-  data: {
-    breadcrumb: 'Story Detail',
-  }, },
+  {
+    path: 'stories',
+    component: StoriesComponent,
+    data: {
+      breadcrumb: 'Stories',
+    },
+  },
+  {
+    path: 'stories-details/:name',
+    component: StoriesDetailsComponent,
+    data: {
+      breadcrumb: 'Story Detail',
+    },
+  },
 ];
 
 @NgModule({

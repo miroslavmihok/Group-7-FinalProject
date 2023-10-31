@@ -14,6 +14,8 @@ import { NavbarComponent } from './Layout/navbar/navbar.component';
 import { HomeComponent } from './Home/home.component';
 import { CareersComponent } from './pages/careers/careers.component';
 import { HeroComponent } from './Home/hero/hero.component';
+import { StoriesComponent } from './pages/stories/stories.component';
+import { StoriesDetailsComponent } from './pages/stories/stories-details/stories-details.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { HeroComponent } from './Home/hero/hero.component';
     HomeComponent,
     CareersComponent,
     HeroComponent,
+    StoriesComponent,
+    StoriesDetailsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],

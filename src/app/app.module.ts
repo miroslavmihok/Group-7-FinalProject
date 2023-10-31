@@ -12,6 +12,7 @@ import { AlumnidetailsComponent } from './pages/alumni/alumnidetails/alumnidetai
 import { EventsDetailsComponent } from './pages/events/events-details/events-details.component';
 import { NavbarComponent } from './Layout/navbar/navbar.component';
 import { HomeComponent } from './Home/home.component';
+import { CareersComponent } from './pages/careers/careers.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { HomeComponent } from './Home/home.component';
     EventsDetailsComponent,
     NavbarComponent,
     HomeComponent,
+    CareersComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],

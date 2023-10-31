@@ -12,6 +12,7 @@ import { AlumnidetailsComponent } from './pages/alumni/alumnidetails/alumnidetai
 import { EventsDetailsComponent } from './pages/events/events-details/events-details.component';
 import { NavbarComponent } from './Layout/navbar/navbar.component';
 import { HomeComponent } from './Home/home.component';
+import { CareersComponent } from './pages/careers/careers.component';
 import { HeroComponent } from './Home/hero/hero.component';
 import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
 
@@ -19,6 +20,7 @@ import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
 @NgModule({
   declarations: [
     AppComponent,
+    AboutComponent,
     EventsComponent,
     FooterComponent,
     AlumniComponent,
@@ -26,6 +28,7 @@ import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
     EventsDetailsComponent,
     NavbarComponent,
     HomeComponent,
+    CareersComponent,
     HeroComponent,
     BreadcrumbsComponent,
 

@@ -4,6 +4,8 @@ import { AlumniComponent } from './pages/alumni/alumni.component';
 import { AlumnidetailsComponent } from './pages/alumni/alumnidetails/alumnidetails.component';
 import { EventsDetailsComponent } from './pages/events/events-details/events-details.component';
 import { EventsComponent } from './pages/events/events.component';
+import { CareersComponent } from './pages/careers/careers.component';
+import { AboutComponent } from './pages/about/about.component';
 import { HomeComponent } from './Home/home.component';
 
 const routes: Routes = [
@@ -30,6 +32,8 @@ const routes: Routes = [
 },
 
   { path: 'events/:details', component: EventsDetailsComponent },
+  { path: 'careers', component: CareersComponent },
+  { path: 'about', component: AboutComponent },
 ];
 
 @NgModule({

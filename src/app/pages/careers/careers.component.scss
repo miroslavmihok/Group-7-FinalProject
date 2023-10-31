@@ -1,0 +1,19 @@
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-body {
+    background-color: lightgrey;
+}
+
+.inserat-header {
+    background-color: darkgrey;
+}
+
+.padding-y {
+    padding: 3rem 0;
+}

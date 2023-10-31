@@ -24,6 +24,9 @@ const routes: Routes = [
   {
     path: 'alumni/:id',
     component: AlumnidetailsComponent,
+    data: {
+      breadcrumb: 'Alumni Details',
+    },
   },
   { path: 'events', component: EventsComponent,
   data: {
@@ -31,7 +34,10 @@ const routes: Routes = [
   },
 },
 
-  { path: 'events/:details', component: EventsDetailsComponent },
+  { path: 'events/:details', component: EventsDetailsComponent,
+  data: {
+    breadcrumb: 'Events Details',
+  }, },
   { path: 'careers', component: CareersComponent,
     data: {
     breadcrumb: 'Careers',

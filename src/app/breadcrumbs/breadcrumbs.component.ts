@@ -37,7 +37,7 @@ export class BreadcrumbsComponent implements OnInit{
       const routeURL: string = child.snapshot.url.map((segment) => segment.path).join('/');
 
       // Skip adding the breadcrumb for the home component (empty route path)
-      if (routeURL !== '') {
+      if (routeURL !== '' ) {
         url += `/${routeURL}`;
         breadcrumbs.push({ label: child.snapshot.data['breadcrumb'], link: url });
       }

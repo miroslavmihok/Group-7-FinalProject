@@ -18,7 +18,7 @@ const routes: Routes = [
     path: 'alumni',
     component: AlumniComponent,
     data: {
-      breadcrumb: 'alumni',
+      breadcrumb: 'Alumni',
     },
   },
   {
@@ -32,8 +32,13 @@ const routes: Routes = [
 },
 
   { path: 'events/:details', component: EventsDetailsComponent },
-  { path: 'careers', component: CareersComponent },
-  { path: 'about', component: AboutComponent },
+  { path: 'careers', component: CareersComponent,
+    data: {
+    breadcrumb: 'Careers',
+  }, },
+  { path: 'about', component: AboutComponent,data: {
+    breadcrumb: 'About',
+  }, },
 ];
 
 @NgModule({

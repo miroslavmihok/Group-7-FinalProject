@@ -1,0 +1,21 @@
+<div class="container">
+  <h2 class="text-center pt-5 pb-5">Event Details</h2>
+  <div class="card mb-3 shadow-lg border-0 bg-body">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="{{ events.img }}" class="img-fluid rounded-start" alt="..." />
+      </div>
+      <div
+        class="col-md-8 d-flex flex-column align-items-center justify-content-center"
+      >
+        <h5 class="card-title">{{ events.title }}</h5>
+        <br />
+        <p class="card-text">
+          {{ events.description }}
+        </p>
+        <p>Event Date: {{ events.date }}</p>
+        <p>Event Location : {{ events.location }}</p>
+      </div>
+    </div>
+  </div>
+</div>

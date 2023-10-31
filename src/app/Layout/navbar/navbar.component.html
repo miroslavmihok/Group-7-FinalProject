@@ -1,9 +1,9 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+<nav [ngClass]="{'navbar-sticky': isSticky}" class="navbar navbar-expand-lg ">
     <div class="container d-flex justify-content-between">
       <a class="navbar-brand" href="#">
         <img src="../../../assets/images/logo.png" alt="Logo" width="40" />
       </a>
-  
+
       <!-- Hamburger menu button -->
       <button
         class="navbar-toggler"
@@ -13,7 +13,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-  
+
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">

@@ -16,6 +16,7 @@ import { HomeComponent } from './Home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
+    AboutComponent,
     EventsComponent,
     FooterComponent,
     AlumniComponent,

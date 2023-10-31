@@ -63,8 +63,14 @@ const routes: Routes = [
   { path: 'events/:details', component: EventsDetailsComponent },
   { path: 'careers', component: CareersComponent },
   { path: 'about', component: AboutComponent },
-  { path: 'stories', component: StoriesComponent },
-  { path: 'stories-details/:name', component: StoriesDetailsComponent },
+  { path: 'stories', component: StoriesComponent,
+  data: {
+    breadcrumb: 'Stories',
+  }, },
+  { path: 'stories-details/:name', component: StoriesDetailsComponent,
+  data: {
+    breadcrumb: 'Story Detail',
+  }, },
 ];
 
 @NgModule({

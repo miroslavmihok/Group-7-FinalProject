@@ -4,6 +4,7 @@ import { AlumniComponent } from './pages/alumni/alumni.component';
 import { AlumnidetailsComponent } from './pages/alumni/alumnidetails/alumnidetails.component';
 import { EventsDetailsComponent } from './pages/events/events-details/events-details.component';
 import { EventsComponent } from './pages/events/events.component';
+import { AboutComponent } from './pages/about/about.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,7 @@ const routes: Routes = [
   },
   { path: 'events', component: EventsComponent },
   { path: 'events/:details', component: EventsDetailsComponent },
+  { path: 'about', component: AboutComponent },
 ];
 
 @NgModule({

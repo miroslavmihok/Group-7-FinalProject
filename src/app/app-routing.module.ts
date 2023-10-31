@@ -5,8 +5,14 @@ import { AlumnidetailsComponent } from './pages/alumni/alumnidetails/alumnidetai
 import { EventsDetailsComponent } from './pages/events/events-details/events-details.component';
 import { EventsComponent } from './pages/events/events.component';
 import { AboutComponent } from './pages/about/about.component';
+import { HomeComponent } from './Home/home.component';
+
 
 const routes: Routes = [
+  {
+    path: '',
+    component: HomeComponent,
+  },
   {
     path: 'alumni',
     component: AlumniComponent,

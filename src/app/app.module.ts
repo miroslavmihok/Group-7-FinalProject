@@ -12,6 +12,7 @@ import { AlumnidetailsComponent } from './pages/alumni/alumnidetails/alumnidetai
 import { EventsDetailsComponent } from './pages/events/events-details/events-details.component';
 import { NavbarComponent } from './Layout/navbar/navbar.component';
 import { HomeComponent } from './Home/home.component';
+import { CareersComponent } from './pages/careers/careers.component';
 import { HeroComponent } from './Home/hero/hero.component';
 
 @NgModule({
@@ -25,6 +26,7 @@ import { HeroComponent } from './Home/hero/hero.component';
     EventsDetailsComponent,
     NavbarComponent,
     HomeComponent,
+    CareersComponent,
     HeroComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],

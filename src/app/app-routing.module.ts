@@ -10,16 +10,25 @@ const routes: Routes = [
   {
     path: '',
     component: HomeComponent,
+
   },
   {
     path: 'alumni',
     component: AlumniComponent,
+    data: {
+      breadcrumb: 'alumni',
+    },
   },
   {
     path: 'alumni/:id',
     component: AlumnidetailsComponent,
   },
-  { path: 'events', component: EventsComponent },
+  { path: 'events', component: EventsComponent,
+  data: {
+    breadcrumb: 'Events',
+  },
+},
+
   { path: 'events/:details', component: EventsDetailsComponent },
 ];
 

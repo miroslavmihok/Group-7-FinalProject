@@ -1,7 +1,7 @@
 export const alumniData = [
   {
     name: "John Smith",
-    img: "assets/images/alumni/img1.jpg",
+    img: "assets/images/alumni/img1.webp",
     dob: "18-07-1990",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis explicabo officiis labore illum veniam consectetur necessitatibus dicta eos quod id distinctio inventore eligendi quam, deserunt unde laudantium ipsum repellat, omnis nam eum sint atque iste! Sed, sint amet hic, omnis quae quos architecto mollitia illum non inventore debitis vel incidunt?",
     career: "Software Engineer",
@@ -9,7 +9,7 @@ export const alumniData = [
   },
   {
     name: "Emily Davis",
-    img: "assets/images/alumni/img5.jpg",
+    img: "assets/images/alumni/img5.webp",
     dob: "25-04-1988",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis explicabo officiis labore illum veniam consectetur necessitatibus dicta eos quod id distinctio inventore eligendi quam, deserunt unde laudantium ipsum repellat, omnis nam eum sint atque iste! Sed, sint amet hic, omnis quae quos architecto mollitia illum non inventore debitis vel incidunt?",
     career: "Data Scientist",
@@ -17,7 +17,7 @@ export const alumniData = [
   },
   {
     name: "Sarah Johnson",
-    img: "assets/images/alumni/img3.jpg",
+    img: "assets/images/alumni/img3.webp",
     dob: "11-12-1985",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis explicabo officiis labore illum veniam consectetur necessitatibus dicta eos quod id distinctio inventore eligendi quam, deserunt unde laudantium ipsum repellat, omnis nam eum sint atque iste! Sed, sint amet hic, omnis quae quos architecto mollitia illum non inventore debitis vel incidunt?",
     career: "Web Developer",
@@ -25,7 +25,7 @@ export const alumniData = [
   },
   {
     name: "Michael Brown",
-    img: "assets/images/alumni/img4.jpg",
+    img: "assets/images/alumni/img4.webp",
     dob: "14-03-1987",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis explicabo officiis labore illum veniam consectetur necessitatibus dicta eos quod id distinctio inventore eligendi quam, deserunt unde laudantium ipsum repellat, omnis nam eum sint atque iste! Sed, sint amet hic, omnis quae quos architecto mollitia illum non inventore debitis vel incidunt?",
     career: "UX Designer",
@@ -33,7 +33,7 @@ export const alumniData = [
   },
   {
     name: "David Wilson",
-    img: "assets/images/alumni/img1.jpg",
+    img: "assets/images/alumni/img1.webp",
     dob: "09-08-1991",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis explicabo officiis labore illum veniam consectetur necessitatibus dicta eos quod id distinctio inventore eligendi quam, deserunt unde laudantium ipsum repellat, omnis nam eum sint atque iste! Sed, sint amet hic, omnis quae quos architecto mollitia illum non inventore debitis vel incidunt?",
     career: "Project Manager",
@@ -41,7 +41,7 @@ export const alumniData = [
   },
   {
     name: "Sophia Miller",
-    img: "assets/images/alumni/img9.jpg",
+    img: "assets/images/alumni/img9.webp",
     dob: "26-09-1989",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis explicabo officiis labore illum veniam consectetur necessitatibus dicta eos quod id distinctio inventore eligendi quam, deserunt unde laudantium ipsum repellat, omnis nam eum sint atque iste! Sed, sint amet hic, omnis quae quos architecto mollitia illum non inventore debitis vel incidunt?",
     career: "Software Engineer",
@@ -49,7 +49,7 @@ export const alumniData = [
   },
   {
     name: "Olivia Taylor",
-    img: "assets/images/alumni/img7.jpg",
+    img: "assets/images/alumni/img7.webp",
     dob: "31-05-1984",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis explicabo officiis labore illum veniam consectetur necessitatibus dicta eos quod id distinctio inventore eligendi quam, deserunt unde laudantium ipsum repellat, omnis nam eum sint atque iste! Sed, sint amet hic, omnis quae quos architecto mollitia illum non inventore debitis vel incidunt?",
     career: "Marketing Specialist",
@@ -57,7 +57,7 @@ export const alumniData = [
   },
   {
     name: "William Johnson",
-    img: "assets/images/alumni/img8.jpg",
+    img: "assets/images/alumni/img8.webp",
     dob: "12-11-1983",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis explicabo officiis labore illum veniam consectetur necessitatibus dicta eos quod id distinctio inventore eligendi quam, deserunt unde laudantium ipsum repellat, omnis nam eum sint atque iste! Sed, sint amet hic, omnis quae quos architecto mollitia illum non inventore debitis vel incidunt?",
     career: "Business Analyst",
@@ -65,7 +65,7 @@ export const alumniData = [
   },
   {
     name: "Daniel Anderson",
-    img: "assets/images/alumni/img6.jpg",
+    img: "assets/images/alumni/img6.webp",
     dob: "05-07-1986",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis explicabo officiis labore illum veniam consectetur necessitatibus dicta eos quod id distinctio inventore eligendi quam, deserunt unde laudantium ipsum repellat, omnis nam eum sint atque iste! Sed, sint amet hic, omnis quae quos architecto mollitia illum non inventore debitis vel incidunt?",
     career: "Financial Analyst",

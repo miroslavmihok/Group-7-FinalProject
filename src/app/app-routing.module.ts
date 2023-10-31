@@ -14,22 +14,48 @@ const routes: Routes = [
   {
     path: '',
     component: HomeComponent,
+
   },
   {
     path: 'alumni',
     component: AlumniComponent,
+    data: {
+      breadcrumb: 'Alumni',
+    },
   },
   {
     path: 'alumni/:id',
     component: AlumnidetailsComponent,
+    data: {
+      breadcrumb: 'Alumni Details',
+    },
   },
+  { path: 'events', component: EventsComponent,
+  data: {
+    breadcrumb: 'Events',
+  },
+
+},
+
+  { path: 'events/:details', component: EventsDetailsComponent,
+  data: {
+    breadcrumb: 'Events Details',
+  }, },
+  { path: 'careers', component: CareersComponent,
+    data: {
+    breadcrumb: 'Careers',
+  }, },
+  { path: 'about', component: AboutComponent,data: {
+    breadcrumb: 'About',
+  }, },
+  
   { path: 'events', component: EventsComponent },
   { path: 'events/:details', component: EventsDetailsComponent },
   { path: 'careers', component: CareersComponent },
   { path: 'about', component: AboutComponent },
   { path: 'stories', component: StoriesComponent },
   { path: 'stories-details/:name', component: StoriesDetailsComponent },
-];
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

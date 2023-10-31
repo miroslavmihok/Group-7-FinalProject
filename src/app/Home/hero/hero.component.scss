@@ -1,0 +1,22 @@
+#carouselExampleDark {
+  max-height: 100vh;
+
+  .carousel-indicators button {
+    background-color: white;
+  }
+  
+  .carousel-item {
+    max-height: calc(100vh - 66px);
+
+    .carousel-caption {
+      position: static;
+    }
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 4rem;
+    height: 4rem;
+    filter: invert(0);
+  }
+}

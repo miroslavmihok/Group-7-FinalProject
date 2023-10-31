@@ -11,7 +11,7 @@ import { AlumniComponent } from './pages/alumni/alumni.component';
 import { AlumnidetailsComponent } from './pages/alumni/alumnidetails/alumnidetails.component';
 import { EventsDetailsComponent } from './pages/events/events-details/events-details.component';
 import { NavbarComponent } from './Layout/navbar/navbar.component';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from './Home/home.component';
 
 @NgModule({
   declarations: [
@@ -21,15 +21,11 @@ import { HomeComponent } from './home/home.component';
     AlumniComponent,
     AlumnidetailsComponent,
     EventsDetailsComponent,
-    NavbarComponent
+    NavbarComponent,
     HomeComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgbModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

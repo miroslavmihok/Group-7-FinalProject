@@ -17,6 +17,11 @@ import { HeroComponent } from './Home/hero/hero.component';
 import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
 import { StoriesComponent } from './pages/stories/stories.component';
 import { StoriesDetailsComponent } from './pages/stories/stories-details/stories-details.component';
+import { HomeAboutComponent } from './Home/home-about/home-about.component';
+import { HomeStoriesComponent } from './Home/home-stories/home-stories.component';
+import { HomeAlumniComponent } from './Home/home-alumni/home-alumni.component';
+import { HomeEventsComponent } from './Home/home-events/home-events.component';
+import { HomeCareersComponent } from './Home/home-careers/home-careers.component';
 
 
 @NgModule({
@@ -35,6 +40,11 @@ import { StoriesDetailsComponent } from './pages/stories/stories-details/stories
     BreadcrumbsComponent,
     StoriesComponent,
     StoriesDetailsComponent,
+    HomeAboutComponent,
+    HomeStoriesComponent,
+    HomeAlumniComponent,
+    HomeEventsComponent,
+    HomeCareersComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule,
   ],

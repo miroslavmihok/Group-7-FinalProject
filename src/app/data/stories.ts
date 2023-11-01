@@ -5,7 +5,7 @@ export const storiesData = [
     title: 'Started from the bottom now we are here',
     description:
       "Luna John, an alumna of our web development school, embarked on a remarkable journey to become one of the world's finest UI/UX designers. Her story is one of dedication, creativity, and unyielding commitment to her craft.",
-    img: '../../../assets/images/stories/testimonial-img-1.jpg',
+    img: 'assets/images/stories/testimonial-img-1.jpg',
     date: '2020-01-01',
     article: `
      Luna John, an alumna of our web development school, embarked on a remarkable journey to become one of the world's finest UI/UX designers. Her story is one of dedication, creativity, and unyielding commitment to her craft.
@@ -24,7 +24,7 @@ export const storiesData = [
     name: 'Mark Smith',
     description:
       'Mark Smith, a distinguished alumnus of our web development school, has emerged as a leading Fullstack Developer, leaving an indelible mark on the digital landscape.',
-    img: '../../../assets/images/stories/testimonial-img-2.jpg',
+    img: 'assets/images/stories/testimonial-img-2.jpg',
     date: 'June 30, 2019',
     article: `
         Mark Smith, a distinguished alumnus of our web development school, has emerged as a leading Fullstack Developer, leaving an indelible mark on the digital landscape. His journey is a testament to the transformative power of dedication and a strong educational foundation.
@@ -43,7 +43,7 @@ export const storiesData = [
     name: 'Michael Wilson',
     description:
       'Michael Wilson, a distinguished alumnus of our web development school, has established himself as a prominent Backend Developer, driving the digital world with innovative solutions.',
-    img: '../../../assets/images/stories/testimonial-img-3.jpg',
+    img: 'assets/images/stories/testimonial-img-3.jpg',
     date: 'June 30, 2022',
     article: `
 Michael Wilson, a distinguished alumnus of our web development school, has established himself as a prominent Backend Developer, driving the digital world with innovative solutions. His journey is a testament to the transformative power of determination and a strong educational foundation.
@@ -64,7 +64,7 @@ We are proud of Michael Wilson's achievements and eagerly anticipate his ongoing
     name: 'Luke Reeves',
     description:
       'Luke Reeves, a distinguished alumnus of our web development school, has made a significant mark as a leading React Developer, shaping user experiences with innovative solutions.',
-    img: '../../../assets/images/stories/testimonial-img-4.jpg',
+    img: 'assets/images/stories/testimonial-img-4.jpg',
     date: 'June 30, 2058',
     article: `
     Luke Reeves, a distinguished alumnus of our web development school, has made a significant mark as a leading React Developer, shaping user experiences with innovative solutions. His journey exemplifies the transformative power of dedication and a strong educational foundation.

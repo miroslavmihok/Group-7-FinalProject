@@ -1,9 +1,39 @@
+<!-- Stories Section -->
 <div class="container mt-5">
-  <div class="row justify-content-center">
-    <div class="col-md-8">
-      <h1>{{ stories.title }}</h1>
-      <p>{{ stories.description }}</p>
-      <p>{{ stories.article }}</p>
+  <h1 class="text-center">{{ stories.title }}</h1>
+  <p class="lead text-center pt-4">{{ stories.description }}</p>
+  <div class="pt-4">
+    <p>{{ stories.article }}</p>
+  </div>
+
+  <h3 class="text-center pt-5">Our Alumni</h3>
+  <hr />
+
+  <!-- Author Section -->
+  <div class="row justify-content-center gy-4 gy-md-0 pb-5 pt-5">
+    <div
+      class="col-12 col-md-3 col-xl-2 d-flex align-items-center justify-content-center"
+    >
+      <img
+        src="{{ stories.img }}"
+        alt=""
+        class="img-fluid rounded-circle shadow-lg"
+      />
+    </div>
+    <div
+      class="col-12 col-md-8 col-lg-6 col-xl-5 d-flex align-items-center justify-content-center"
+    >
+      <div class="text-center text-md-start author-content">
+        <h4 class="mb-3 text-center">{{ stories.name }}</h4>
+        <p>
+          <i
+            class="fa-regular fa-calendar about-icon pe-2"
+            style="color: #e55f06"
+          ></i
+          >Date of Graduation:
+          {{ stories.date }}
+        </p>
+      </div>
     </div>
   </div>
 </div>

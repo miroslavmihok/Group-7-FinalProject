@@ -1,4 +1,5 @@
 export interface Ialumni {
+  id: number;
   name: string;
     img: string;
     dob: string;

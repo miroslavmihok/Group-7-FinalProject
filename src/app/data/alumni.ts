@@ -1,5 +1,6 @@
 export const alumniData = [
   {
+    id:1,
     name: "John Smith",
     img: "assets/images/alumni/img1.webp",
     dob: "18-07-1990",
@@ -8,6 +9,7 @@ export const alumniData = [
     achievements: "Best Student",
   },
   {
+    id:2,
     name: "Emily Davis",
     img: "assets/images/alumni/img5.webp",
     dob: "25-04-1988",
@@ -16,6 +18,7 @@ export const alumniData = [
     achievements: "Student of the Year",
   },
   {
+    id:3,
     name: "Sarah Johnson",
     img: "assets/images/alumni/img3.webp",
     dob: "11-12-1985",
@@ -24,6 +27,7 @@ export const alumniData = [
     achievements: "Made First App",
   },
   {
+    id:4,
     name: "Michael Brown",
     img: "assets/images/alumni/img4.webp",
     dob: "14-03-1987",
@@ -32,6 +36,7 @@ export const alumniData = [
     achievements: "Innovator",
   },
   {
+    id:5,
     name: "David Wilson",
     img: "assets/images/alumni/img1.webp",
     dob: "09-08-1991",
@@ -40,6 +45,7 @@ export const alumniData = [
     achievements: "Top Performer",
   },
   {
+    id:6,
     name: "Sophia Miller",
     img: "assets/images/alumni/img9.webp",
     dob: "26-09-1989",
@@ -48,6 +54,7 @@ export const alumniData = [
     achievements: "Made First App",
   },
   {
+    id:7,
     name: "Olivia Taylor",
     img: "assets/images/alumni/img7.webp",
     dob: "31-05-1984",
@@ -56,6 +63,7 @@ export const alumniData = [
     achievements: "Digital Marketing Expert",
   },
   {
+    id:8,
     name: "William Johnson",
     img: "assets/images/alumni/img8.webp",
     dob: "12-11-1983",
@@ -64,6 +72,7 @@ export const alumniData = [
     achievements: "Data Analysis Guru",
   },
   {
+    id:9,
     name: "Daniel Anderson",
     img: "assets/images/alumni/img6.webp",
     dob: "05-07-1986",

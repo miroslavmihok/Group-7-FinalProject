@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { alumniData } from 'src/app/data/alumni';
+import { Ialumni } from 'src/app/interfaces/ialumni';
 
 @Component({
   selector: 'app-home-alumni',
@@ -6,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./home-alumni.component.scss']
 })
 export class HomeAlumniComponent {
+  alumni:Ialumni[] = alumniData;
+  imgClasses: string[] = ['rounded-start-circle', 'rounded', 'rounded-end-circle'];
+
 
 }

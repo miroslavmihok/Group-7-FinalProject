@@ -1,16 +1,81 @@
-<div class="container-fluid bg-light">
-  <div
-    class="container text-center d-flex flex-column align-items-center justify-content-center py-5"
-  >
-    <h1>Featured open positions</h1>
-    <p class="w-75">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia,
-      eligendi. Illo sequi, praesentium adipisci at, in aspernatur esse mollitia
-      eius, porro tempora deleniti eligendi. Harum laboriosam nisi magni sint
-      laudantium?
-    </p>
-    <button type="button" class="btn btn-primary px-4" routerLink="/careers">
-      Explore all positions
-    </button>
+<div class="container-fluid events-container">
+  <div class="row h-100">
+    <div class="col col-8 bg-light d-flex flex-column justify-content-center px-5 py-5">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item" *ngFor="let career of careers">
+          <h2 class="accordion-header" [id]="'heading_' + career.id">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              [attr.data-bs-target]="'#collapse_' + career.id"
+              aria-expanded="true"
+              [attr.aria-controls]="'collapse_' + career.id"
+            >
+              {{ career.title }}
+            </button>
+          </h2>
+          <div
+            [id]="'collapse_' + career.id"
+            class="accordion-collapse collapse"
+            [attr.aria-labelledby]="'heading_' + career.id"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <h2 class="text-center">{{ career.title }}</h2>
+              <div class="inserat-header container-fluid py-2">
+                <div class="inserat-jobtype pb-2">
+                  <i class="fa-regular fa-clock"></i>
+                  {{ career.jobtype }}
+                </div>
+                <div class="inserat-position pb-2">
+                  <i class="fa-solid fa-briefcase"></i>
+                  {{ career.position }}
+                </div>
+                <div class="inserat date">
+                  <i class="fa-solid fa-calendar-days"></i>
+                  {{ career.dateCreated }}
+                </div>
+              </div>
+              <p class="text-center py-4">
+                {{ career.description }}
+              </p>
+              <div class="inserat-body">
+                <div class="inserat-tasks">
+                  <p class="fw-bold mb-2">Your Tasks:</p>
+                  <ul>
+                    <li *ngFor="let task of career.tasks">
+                      {{ task }}
+                    </li>
+                  </ul>
+                </div>
+                <div class="inserat-qualifications">
+                  <p class="fw-bold mb-2">Your Qualification:</p>
+                  <ul>
+                    <li *ngFor="let qualification of career.qualifications">
+                      {{ qualification }}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="apply-button d-flex justify-content-end">
+                <button type="button" class="btn btn-dark px-4">Apply</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col col-4 bg-light d-flex flex-column justify-content-evenly h-auto py-5 px-5">
+      <div class="">
+        <h1>Most recent job offers</h1>
+        <p class="w-75">
+          Join us the upcomming weeks, or look at more events.
+        </p>
+        <button type="button" class="btn btn-dark w-50" routerLink="/events">
+          More events
+        </button>
+      </div>
+    </div>
   </div>
 </div>

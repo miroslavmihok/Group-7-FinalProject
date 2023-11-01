@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { eventsData } from 'src/app/data/events';
+import { Ievents } from 'src/app/interfaces/ievents';
 
 @Component({
   selector: 'app-home-events',
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./home-events.component.scss']
 })
 export class HomeEventsComponent {
-
+  events: Ievents[] = eventsData;
 }

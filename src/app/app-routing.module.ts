@@ -14,12 +14,17 @@ const routes: Routes = [
   {
     path: '',
     component: HomeComponent,
+    data: {
+
+      title: 'Home' ,
+    },
   },
   {
     path: 'alumni',
     component: AlumniComponent,
     data: {
       breadcrumb: 'Alumni',
+      title: 'Alumni' ,
     },
   },
   {
@@ -27,6 +32,7 @@ const routes: Routes = [
     component: AlumnidetailsComponent,
     data: {
       breadcrumb: 'Alumni Details',
+      title: 'Alumni Details' ,
     },
   },
   {
@@ -34,6 +40,7 @@ const routes: Routes = [
     component: EventsComponent,
     data: {
       breadcrumb: 'Events',
+      title: 'Events' ,
     },
   },
 
@@ -42,6 +49,7 @@ const routes: Routes = [
     component: EventsDetailsComponent,
     data: {
       breadcrumb: 'Events Details',
+      title: 'Events Details' ,
     },
   },
   {
@@ -49,6 +57,7 @@ const routes: Routes = [
     component: CareersComponent,
     data: {
       breadcrumb: 'Careers',
+      title: 'Careers' ,
     },
   },
   {
@@ -56,6 +65,7 @@ const routes: Routes = [
     component: AboutComponent,
     data: {
       breadcrumb: 'About',
+      title: 'About ' ,
     },
   },
 
@@ -64,6 +74,7 @@ const routes: Routes = [
     component: StoriesComponent,
     data: {
       breadcrumb: 'Stories',
+      title: 'Stories ' ,
     },
   },
   {
@@ -71,6 +82,7 @@ const routes: Routes = [
     component: StoriesDetailsComponent,
     data: {
       breadcrumb: 'Story Detail',
+      title: 'Story Detail ' ,
     },
   },
 ];

@@ -1,19 +1,25 @@
-
 <div class="container">
-  <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3 g-4 my-4">
-   <div class="col d-flex justify-content-center" *ngFor="let item of alumni;index as id ">
-    <div class="card shadow-lg border-0 bg-body" style="width: 18rem;">
-      <img src="{{item.img}}" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">{{item.name}}</h5>
-        <h6 class="card-title">{{item.career}}</h6>
-        <p class="card-text">Date of Birth : {{item.dob}}</p>
-        <a routerLink="/alumni/{{id}}" class="btn btn-outline-dark">Click to Know Me</a>
+  <div
+    class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3 g-4 my-4"
+  >
+    <div
+      class="col d-flex justify-content-center"
+      *ngFor="let item of alumni; index as id"
+    >
+      <div
+        class="card shadow-lg border-0 bg-body transformx"
+        style="width: 18rem"
+      >
+        <img src="{{ item.img }}" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">{{ item.name }}</h5>
+          <h6 class="card-title">{{ item.career }}</h6>
+          <p class="card-text">Date of Birth : {{ item.dob }}</p>
+          <a routerLink="/alumni/{{ id }}" class="btn btn-outline-dark"
+            >Click to Know Me</a
+          >
+        </div>
       </div>
     </div>
-   </div>
   </div>
 </div>
-
-
-

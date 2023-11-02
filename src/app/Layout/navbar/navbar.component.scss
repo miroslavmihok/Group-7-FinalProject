@@ -1,3 +1,9 @@
 .heading-text {
     color: var(--clr-orange);
 }
+
+.nav-item {
+   a:hover {
+    color: var(--clr-orange)!important;
+   }
+}

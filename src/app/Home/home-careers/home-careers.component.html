@@ -1,6 +1,6 @@
 <div class="container-fluid events-container">
   <div class="row h-100">
-    <div class="col col-8 bg-light d-flex flex-column justify-content-center px-5 py-5">
+    <div class="col col-12 col-md-8 bg-light d-flex flex-column justify-content-center px-5 py-5">
       <div class="accordion" id="accordionExample">
         <div class="accordion-item" *ngFor="let career of careers">
           <h2 class="accordion-header" [id]="'heading_' + career.id">
@@ -66,14 +66,14 @@
         </div>
       </div>
     </div>
-    <div class="col col-4 bg-light d-flex flex-column justify-content-evenly h-auto py-5 px-5">
-      <div class="">
+    <div class="col col-12 col-md-4 bg-light d-flex flex-column justify-content-evenly align-items-center align-items-md-start text-center text-md-start h-auto py-5 px-5">
+      <div class="d-flex flex-column justify-content-evenly align-items-center align-items-md-start">
         <h1>Most recent job offers</h1>
         <p class="w-75">
-          Join us the upcomming weeks, or look at more events.
+          Our most recent open positions or explore them all.
         </p>
         <button type="button" class="btn btn-dark w-50" routerLink="/events">
-          More events
+          More positions
         </button>
       </div>
     </div>
